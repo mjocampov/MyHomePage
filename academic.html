@@ -3,13 +3,13 @@
 <head>
 
   <!--Meta data-->
-	<meta charset="UTF-8">
+  <meta charset="UTF-8">
   <meta name="author" content="María José Ocampo Vargas">
   <meta name="keywords" content="María,Ocampo,Vargas">
   <meta name="description" content="Personal web page of María José Ocampo Vargas">
 
   <!--Title-->
-	<title>Maria Ocampo</title>
+  <title>Maria Ocampo</title>
 
   <!--Favicon-->
   <link rel="icon" href="https://66.media.tumblr.com/f651ff86f6a54cc188fede912a164e32/tumblr_pwgn3eiHVS1srjdm2o1_400.png">
@@ -55,33 +55,58 @@
             <a class="nav-link" href="academic.html">Academic</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="personal,html">Personal</a>
+            <a class="nav-link" href="personal.html">Personal</a>
           </li>
         </ul>
       </div>
     </nav>
   <!--NavBar-->
 
-  <!--About Me-->
+  <!--Projects-->
     <br>
     <br>
-    <div id="aboutme" class="about-me-section">
-      <div class="row">
-        <div class="col-4">
-          <img class="mePhoto" src="img/me2.jpg" alt="Profile photo">
+    <div id="academic" class="academic-section">
+      <div class="projects center">
+        <h2>Projects</h2>
+        <br>
+        <div class="card-deck">
+          <div class="card">
+            <img src="img/otium.png" class="card-img-top" alt="Otium porject logo">
+            <div class="card-body">
+              <p class="card-text">Otium is a platform where people find job offers that match their abilities, knowledge and interests.</p>
+              <p class="card-text"><small class="text-muted">Early 2019</small></p>
+            </div>
+          </div>
+          <div class="card">
+            <img src="img/apolo.png" class="card-img-top" alt="Apolo porject logo">
+            <div class="card-body">
+              <p class="card-text">Apollo is a website for retail sellers, it allows them to store all the information of their businesses such as sales, inventories, etc.</p>
+              <p class="card-text"><small class="text-muted">Early 2019</small></p>
+            </div>
+          </div>
+          <div class="card">
+            <img src="img/livre.png" class="card-img-top" alt="Livre project logo">
+            <div class="card-body">
+              <p class="card-text">Livre is a reading recommendation platform, it achieves this by collecting user information such as age, interests and previous readings.</p>
+              <p class="card-text"><small class="text-muted">Now</small></p>
+            </div>
+          </div>
         </div>
-        <div class="col-8 description">
-          <span class="name">María José Ocampo</span>
-          <br>
-          <span class="age">18 years old</span>
-          <br>
-          <br>
-          <span class="academic-description">I'm currently an undergraduate student at the <span class="italic">Universidad de los Andes</span>, I study <span class="italic">Systems and Computer Engineering</span> and <span class="italic">Mathematics.</span></span>
-          <span class="personal-description">I'm rugby player at the university team. Also, in my free time I enjoy reading and wacthing movies/series/anime.</span>
+      </div>
+  <!--Projects-->
+
+
+  <!--Skills-->
+      <br>
+      <br>
+      <div class="skills center">
+        <h2>Skills</h2>
+        <br>
+        <div id="chartContainer">
         </div>
       </div>
     </div>
-  <!--About Me-->
+  <!--Skills-->
 
 
   <!--Footer-->
@@ -110,8 +135,7 @@
 
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 
-  <!--Change between pages-->
-  <script src="js/pagesChange.js"></script>
-
+  <script src="js/skills.js"></script>
+  <script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
 </body>
 </html>
